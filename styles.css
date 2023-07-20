@@ -1,0 +1,56 @@
+@font-face {
+  src: url("Cleanwork.ttf");
+  font-family: techfont;
+}
+
+body{
+  background-image: url("img/faded-office.png");
+  background-size: cover;
+
+}
+
+.main{
+    font-family:techfont;
+    text-align: center;
+    
+}
+
+.border-blue {
+border: 1px blue dotted;
+}
+
+.text-1{
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 60px;
+  display: block;
+  width: 410px;
+  color: #020202;
+}
+.text-2{
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+  display: block;
+  width: 410px;
+  color: #020202;
+}
+.btn-container{
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+  display: block;
+  width: 410px;
+}
+.btn {
+width: 150px;
+padding: 15px 7.5px;
+font-size: 15px;
+background-color: #088da5 ;
+color: #f0f8ff;
+border: none;
+}
+#highlight{
+  color: #f0f8ff;
+  text-shadow: 1px 1px 3px black;
+}
